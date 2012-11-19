@@ -17,7 +17,8 @@
 	font-family: 'chadcons';
 }
 body {
-	padding-top: 57px;  /* Make the container go all the way to the bottom of the topbar */
+	padding-top: 0;  /* Make the container go all the way to the bottom of the topbar */
+	padding-bottom: 40px;
 	font-size:14px;
 }
 a:hover {
@@ -841,4 +842,17 @@ h2.label-heading {
 	color: #111;
 	height: 50px;
 	font-weight: bold;
+}
+
+
+.landing {
+	padding-top: 45px;
+	padding-bottom: 330px;
+}
+
+.landing img {
+	position: relative;
+	top: -4px;
+	vertical-align: top;
+	margin: 0 15px;
 }

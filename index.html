@@ -6,8 +6,8 @@ title: Turnkey Dashboards | Profitably
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Turnkey Dashboards | Profitably</title>
-<meta name="description" content="Profitably makes turnkey dashboards for small businesses.">
+<title>Activecell: The small business management platform</title>
+<meta name="description" content="activecell: small business management platform. dynamic business planning and historical analysis of your data, all in one easy to use dashboard and reporting platform">
 <meta name="author" content="Adam Neary">
 
 <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
@@ -16,68 +16,51 @@ title: Turnkey Dashboards | Profitably
        <![endif]-->
 
 <!-- Le styles -->
-<link href="{{'assets/packaged_css_20120522_2.css' | cdn}}" rel="stylesheet" type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lusitana:700' rel='stylesheet' type='text/css'>
+<link href="assets/packaged_css_20120522_2.css" rel="stylesheet" type='text/css'>
 
 <!-- Le fav and touch icons -->
-<link rel="shortcut icon" href="{{ 'favicon.ico' | cdn }}">
+<link rel="shortcut icon" href="favicon.ico">
 <!-- <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
 <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png"> -->
 </head>
-<body id="landing-page">
 
-   <div class="container">
-      <div class="row landing-header">
-            <img width="161" height="46" border="0" alt="Profitably" src="{{ 'assets/img/branding/profitably_logo.png' | cdn }}">
-            <h1>Turnkey Dashboards</h1>
-      </div>
-      <div class="row landing-nav">
-         <section class="span4 offset2 dashboard-personal">
-            <header>
-               <a href="dashboards.html" class="btn-link">
-                  <span>I need a dashboard</span>
-               </a>
-            </header>
-            <footer>
-               <ul class="unstyled">
-                  <li>Small Businesses</li>
-                  <li>Startups</li>
-                  <li>Individuals Starting a Business</li>
-               </ul>
-            </footer>
-         </section>
-         
-         <section class="span3 dashboard-client">
-            <header>
-               <a href="advisor.html" class="btn-link">
-                  <span>My clients need dashboards</span>
-               </a>
-            </header>
-            <footer>
-               <ul class="unstyled">
-                  <li>Accountants</li>
-                  <li>Bookkeepers</li>
-                  <li>Small Business Consultants</li>
-                  <li>Business Coaches</li>
-               </ul>
-            </footer>
-         </section>         
-      </div>
-   </div>
+<body class="landing-body">
 
-<!-- Le javascript
-    ================================================== --> 
-<!-- Placed at the end of the document so the pages load faster --> 
-<script type="text/javascript" src="{{ 'assets/packaged_js_20120522_2.js' | cdn }}"></script>
-<script>
-   $(function(){
-      $(".landing-nav .btn-link").hover(function() {
-         $(".landing-nav section").not($(this).parent().parent()).animate({"opacity": 0.5}, {"queue": false});
-      }, function() {
-         $(".landing-nav section").animate({"opacity": 1}, {"queue": false});
-      });
-   });
-</script>   
+  <!-- banner content -->
 
+<div class="landing-banner">
+  <div class="container">
+    <div class="white-label-header landing">
+      <h1 class="label-heading centered">
+        <img src="assets/img/branding/profitably_logo.png" 
+              alt="activecell" width="161" height="46" style="margin-top: 4px;">
+              is now
+        <img src="assets/img/branding/activecell-full-color-darkBG-small.png" 
+              alt="activecell" width="180" height="50">   
+      </h1>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <img class="branded-screenshot" src="assets/img/branding/profitably_scrn.png" 
+      width="868" height="358" alt="" />
+    <a class="btn btn-success btn-learn" href="http://www.activecell.com">
+      <strong>Get to work</strong><br>
+      <img src="assets/img/startnow_finger.png" width="212" height="22">
+    </a>
+  </div>
+</div>
+
+
+
+  <!-- Le javascript
+      ================================================== --> 
+  <!-- Placed at the end of the document so the pages load faster --> 
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script> 
+  <script src="assets/js/waypoints.js"></script> 
+  <script src="assets/packaged_js.js"></script> 
 </body>
 </html>
