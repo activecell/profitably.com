@@ -21,6 +21,9 @@ body {
 	padding-bottom: 40px;
 	font-size:14px;
 }
+#activecell {
+  margin-top: -4px;
+}
 a:hover {
 	text-decoration:none;
 }
@@ -844,10 +847,13 @@ h2.label-heading {
 	font-weight: bold;
 }
 
+.drop {
+  margin-top: 40px;
+}
 
 .landing {
-	padding-top: 45px;
-	padding-bottom: 330px;
+	padding-top: 40px;
+	padding-bottom: 300px;
 }
 
 .landing img {
